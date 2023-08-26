@@ -18,11 +18,11 @@ router.post('/upload', async (req, res) => {
     const options = {
         hostname: 'app.useanvil.com',
         port: 443,
-        path: 'api/v1/fill/aN0QkXcSWl4GCHI7iVME.pdf',
+        path: '/api/v1/fill/aN0QkXcSWl4GCHI7iVME.pdf',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic UWRrWDF6cVNPOEVkaWtnQzNHSmRxMHlsTmc3RTZWQXI6',  // Asegúrate de manejar esto de forma segura
+            'Authorization': 'Basic SU9xb2pGM1dKcTg2andkZ0pSR0NTb3I1N1p5WHJPNXQ6',  // Asegúrate de manejar esto de forma segura
             'Cookie': 'sesh=897784e1a463bcaa47fc71ae02e2482b; sesh.sig=txTRENaY37wogpOStkLDBFCntvE; b_id=1f9fc3360f0b38b5c835433d73d9eeaf; b_id.sig=Em0AnYzHiJx9i7b4VKMnb49Am5c',  // Asegúrate de manejar esto de forma segura
         },
     };
