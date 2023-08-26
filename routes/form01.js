@@ -18,7 +18,7 @@ router.post('/upload', async (req, res) => {
     const options = {
         hostname: 'app.useanvil.com',
         port: 443,
-        path: '/api/v1/fill/aN0QkXcSWl4GCHI7iVME.pdf',
+        path: 'api/v1/fill/aN0QkXcSWl4GCHI7iVME.pdf',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
