@@ -23,7 +23,7 @@ router.post('/upload', async (req, res) => {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Basic SU9xb2pGM1dKcTg2andkZ0pSR0NTb3I1N1p5WHJPNXQ6',  // Asegúrate de manejar esto de forma segura
-            'Cookie': 'sesh=276424722a237fcac689cdb252c5f8b1; sesh.sig=sb9LrTG4BHAZCFhHqGRin3tu6Qg; b_id=5a6e6f175f45c7a7eef56fde36e371f4; b_id.sig=tK7tsEA3w8CktlLnunCxr6Gd_fs',  // Asegúrate de manejar esto de forma segura
+            'Cookie': 'sesh=897784e1a463bcaa47fc71ae02e2482b; sesh.sig=txTRENaY37wogpOStkLDBFCntvE; b_id=1f9fc3360f0b38b5c835433d73d9eeaf; b_id.sig=Em0AnYzHiJx9i7b4VKMnb49Am5c',  // Asegúrate de manejar esto de forma segura
         },
     };
 
